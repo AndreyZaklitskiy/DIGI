@@ -8,3 +8,14 @@ $robotomedium : 'Roboto-Medium', 'Arial', 'sans-serif';
 $robotoregular : 'Roboto-Regular', 'Arial', 'sans-serif';
 $robotocondensedBold : 'RobotoCondensed-Bold', 'Arial', 'sans-serif';
 $robotocondensedRegular : 'RobotoCondensed-Regular', 'Arial', 'sans-serif';
+$dosisMedium : 'Dosis-Medium', 'Arial', 'sans-serif';
+$dosisLight : 'Dosis-Light', 'Arial', 'sans-serif';
+
+%dosis300 {
+    font-family: $dosisLight;
+    font-weight: 300;
+}
+%roboto500 {
+    font-family: $robotomedium;
+    font-weight: 500;
+}

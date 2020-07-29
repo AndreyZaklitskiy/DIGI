@@ -9,13 +9,11 @@ $('.top-slider').slick({
       {
         breakpoint: 1024,
         settings: {
-
         }
       },
       {
         breakpoint: 768,
         settings: {
-
         }
       },
       {
