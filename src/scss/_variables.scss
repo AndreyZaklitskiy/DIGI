@@ -2,7 +2,7 @@
 $accent :  #2B4074;
 $text-color : #4A4A4A;
 $bg-color : #F9F6E5;
-
+$default-color : #9B9B9B;
 // fonts
 $robotomedium : 'Roboto-Medium', 'Arial', 'sans-serif';
 $robotoregular : 'Roboto-Regular', 'Arial', 'sans-serif';
@@ -14,6 +14,18 @@ $dosisLight : 'Dosis-Light', 'Arial', 'sans-serif';
 %dosis300 {
     font-family: $dosisLight;
     font-weight: 300;
+}
+%dosis500 {
+    font-family: $dosisMedium;
+    font-weight: 500;
+}
+%robotocondensed400 {
+    font-family: $robotocondensedRegular;
+    font-weight: 400;
+}
+%robotocondensed700 {
+    font-family: $robotocondensedBold;
+    font-weight: 700;
 }
 %roboto500 {
     font-family: $robotomedium;
